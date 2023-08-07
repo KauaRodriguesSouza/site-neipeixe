@@ -31,7 +31,7 @@ background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
 header h1{
     color: white;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 55px;
     padding: 10px;
     font-family: var(--fonte-destaque)
 }
@@ -96,7 +96,7 @@ body{
     min-width: 50px;
     min-width: none;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 24px;
 }
 section.imagem p {
     background-color: rgba(0, 0, 0, 0.219);
