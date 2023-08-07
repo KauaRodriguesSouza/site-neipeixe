@@ -96,3 +96,23 @@ body{
     font-weight: bolder;
     font-size: 30px;
 }
+section.imagem p {
+    background-color: rgba(255, 255, 255, 0.24);
+    color: white;
+    width: 300px;
+    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
+    padding: 20px;
+    font-family: var(--fonte-pagina);
+}
+section.imagem{
+    height: 300px;
+    padding-top: 150px;
+    margin-bottom: 200px;
+}
+#imagem01{
+    background-image: url('imagens/funfo-do-mar023png.jpg');
+    background-position: center, center;
+    background-attachment: fixed;
+    
+}
