@@ -1,0 +1,108 @@
+@charset "UTF-8";
+ @font-face {
+    font-family: 'fonte-peixe';
+    src: url(../font/Olho\ De\ Peixe.ttf)format('opentype');
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Sriracha&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    --cor1:#0477BF;
+    --cor2:#05AFF2;
+    --cor3:#05C7F2;
+    --cor4:#05DBF2;
+
+    --fonte-destaque:'fonte-peixe', ARIAL;
+    --fonte-normal: 'Roboto Slab', ARIAL;
+    --fonte-pagina: 'Lobster', ARIAL;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    text-align: center;
+}
+header h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    padding: 10px;
+    font-family: var(--fonte-destaque);
+}
+
+header p{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: var(--fonte-normal);
+}
+
+nav{
+    background-color: var(--cor2);
+    height: 36px;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+}
+
+nav a {
+    color: white;
+    border-radius: 10px;
+    font-family: var(--fonte-normal);
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+nav > a:hover{ 
+    text-decoration: underline;
+    background-color: #06163B;
+    color: #05DBF2;
+    
+}
+
+body{
+    background-image: linear-gradient( to right ,  #06163B, #0C2D7A, #1345BA);
+    font-family: var(--fonte-pagina);
+}
+
+.apresentaçao{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+
+}
+.apresentaçao img{
+    min-width: 150px;
+    
+    border-radius: 10px;
+    margin: 50px 60px 90px 100px;
+    width: 600px;
+    box-shadow: 1px 1px 4px black;
+}
+.apresentaçao p{
+    max-width: 700px;
+    min-width: 110px;
+    min-width: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.imagem{
+    font-family: var(--fonte-pagina);
+    height: 200px;
+    font-size: 20px;
+    background-image: url('../imagens/');
+    background-attachment: fixed;
+    padding-top: 100px ;
+    padding-left: 20px;
+    margin-bottom: 200px;
+}
