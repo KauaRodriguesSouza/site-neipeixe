@@ -1,7 +1,8 @@
 @charset "UTF-8";
  @font-face {
     font-family: 'fonte-peixe';
-    src: url(../font/Olho\ De\ Peixe.ttf)format('opentype');
+    src: url(font/OLHODEPE.OTF)format('opentype');
+    font-weight: bolder;
  }
 
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Sriracha&display=swap');
@@ -32,7 +33,7 @@ header h1{
     font-weight: bolder;
     font-size: 60px;
     padding: 10px;
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-destaque)
 }
 
 header p{
@@ -85,7 +86,7 @@ body{
     min-width: 150px;
     
     border-radius: 10px;
-    margin: 50px 60px 90px 100px;
+    margin: 50px 60px 90px 50px;
     width: 600px;
     box-shadow: 1px 1px 4px black;
 }
@@ -97,11 +98,12 @@ body{
     font-size: 30px;
 }
 section.imagem p {
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(0, 0, 0, 0.219);
     color: white;
-    width: 300px;
+    width: 240px;
     text-shadow: 2px 2px 3px black;
     font-size: 20px;
+    margin: 20px;
     padding: 20px;
     font-family: var(--fonte-pagina);
 }
