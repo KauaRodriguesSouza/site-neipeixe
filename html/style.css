@@ -110,7 +110,6 @@ section.imagem p {
 section.imagem{
     height: 300px;
     padding-top: 150px;
-    margin-bottom: 200px;
 }
 #imagem01{
     background-image: url('imagens/funfo-do-mar023png.jpg');
