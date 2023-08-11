@@ -93,22 +93,22 @@ body{
 .apresentaçao p{
     max-width: 700px;
     min-width: 50px;
-    min-width: none;
     font-weight: bolder;
     font-size: 24px;
 }
 section.imagem p {
     background-color: rgba(0, 0, 0, 0.219);
     color: white;
+    text-align: center;
     width: 240px;
     text-shadow: 2px 2px 3px black;
     font-size: 20px;
-    margin: 20px;
-    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
     font-family: var(--fonte-pagina);
 }
 section.imagem{
-    height: 300px;
+    height: 150px;
     padding-top: 150px;
 }
 #imagem01{
@@ -148,6 +148,7 @@ section.imagem{
 #imagem02{
     background-image: url(imagens/istockphoto-1327387033-612x612.jpg);
     background-size: 1000px;
-    background-position: right, center;
+    height: 150px;
+    background-position: top, center;
     background-attachment: fixed;
 }
