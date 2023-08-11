@@ -88,7 +88,7 @@ body{
     border-radius: 10px;
     margin: 50px 60px 90px 20px;
     width: 300px;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.774);
 }
 .apresentaçao p{
     max-width: 700px;
@@ -116,4 +116,15 @@ section.imagem{
     background-position: center, center;
     background-attachment: fixed;
     
+}
+.foto-loja h1{
+    width: 300px;
+    margin: 15px;
+    color: white;
+    font-family: var(--fonte-normal-);
+}
+.foto-loja img{
+   padding-top: 30px;
+   padding-left: 10%;
+   width: 80%;
 }
