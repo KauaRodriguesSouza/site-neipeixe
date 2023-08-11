@@ -56,7 +56,7 @@ nav a {
     color: white;
     border-radius: 10px;
     font-family: var(--fonte-normal);
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     padding: 10px;
     text-decoration: none;
@@ -126,6 +126,14 @@ section.imagem{
 .foto-loja img{
    padding-top: 20px;
    margin-left: 10px;
+   padding-bottom: 60px;
     margin-right: 10px;
    width: 93%;
+}
+
+#imagem02{
+    background-image: url(imagens/istockphoto-1327387033-612x612.jpg);
+    background-size: 100% 100%;
+    background-position: left, center;
+    background-attachment: fixed;
 }
