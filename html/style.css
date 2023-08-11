@@ -113,7 +113,6 @@ section.imagem{
 }
 #imagem01{
     background-image: url('imagens/funfo-do-mar023png.jpg');
-    width: 700px;
     background-position: center, center;
     background-attachment: fixed;
     
@@ -126,7 +125,7 @@ section.imagem{
 }
 .foto-loja img{
    padding-top: 20px;
-   margin-left: 30px;
+   margin-left: 10px;
     margin-right: 10px;
    width: 93%;
 }
