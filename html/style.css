@@ -123,6 +123,13 @@ section.imagem{
     color: white;
     font-family: var(--fonte-normal-);
 }
+
+.foto-loja p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
 .foto-loja img{
    padding-top: 20px;
    margin-left: 10px;
@@ -130,10 +137,17 @@ section.imagem{
     margin-right: 10px;
    width: 93%;
 }
+.foto-loja a{
+    text-decoration: none;
+    color: rgb(4, 126, 51);
+}
+.foto-loja a:hover{
+    text-decoration: underline;
+}
 
 #imagem02{
     background-image: url(imagens/istockphoto-1327387033-612x612.jpg);
-    background-size: 100% 100%;
-    background-position: left, center;
+    background-size: 1000px;
+    background-position: right, center;
     background-attachment: fixed;
 }
