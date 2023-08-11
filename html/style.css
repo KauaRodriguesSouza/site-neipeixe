@@ -124,7 +124,7 @@ section.imagem{
     font-family: var(--fonte-normal-);
 }
 .foto-loja img{
-   padding-top: 30px;
+   padding-top: 20px;
    padding-left: 10%;
-   width: 80%;
+   width: 90%;
 }
