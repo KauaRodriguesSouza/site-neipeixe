@@ -139,7 +139,7 @@ section.imagem{
 }
 .foto-loja a{
     text-decoration: none;
-    color: rgb(4, 126, 51);
+    color: var(--cor1);
 }
 .foto-loja a:hover{
     text-decoration: underline;
